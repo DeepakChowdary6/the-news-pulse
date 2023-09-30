@@ -1,6 +1,6 @@
 import {Article} from "@/typing";
 import {notFound} from "next/navigation";
-import Image from "next/image";
+
 type Props={
     searchParams?:Article;
 }
@@ -13,7 +13,7 @@ export default function ArticlePage({searchParams}:Props){
     return <article>
         <section className="flex flex-col lg:flex-row pb-24 px-0 lg:px-10">
             {article.image && (
-                <Image
+                <img
                     src={article.image}
                     alt={article.title}
                     className={"h-52 max-w-md mx-auto md:max-w-lg lg:max-w-lg object-cover rounded-lg shadow-md"}

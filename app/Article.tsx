@@ -1,6 +1,6 @@
 import {Article} from "@/typing";
 import ReadMoreButton from "@/app/ReadMoreButton";
-import Image from "next/image";
+
 type Props={
     article:Article
 }
@@ -10,9 +10,11 @@ export default function Article({article}:Props){
       transition-all duration-200 ease-out
     ">
         {article.image && (
-            <Image
+            <img
             src={article.image}
             alt={article.title}
+
+
             className={"h-56 w-full object-cover rounded-t-lg shadow-md"}
             />
         )}
