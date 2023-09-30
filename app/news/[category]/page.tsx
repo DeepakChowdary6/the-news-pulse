@@ -1,7 +1,7 @@
 import {Category, NewsRepsonse} from "@/typing";
 import fetchNews from "@/lib/fetchNews";
 import NewsList from "@/app/NewsList";
-import {categories} from "@/constants";
+
 type Props={
     params:{category:Category};
 };
