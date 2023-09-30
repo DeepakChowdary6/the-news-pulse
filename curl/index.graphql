@@ -1,0 +1,35 @@
+type Pagination {
+  count: Int
+  limit: Int
+  offset: Int
+  total: Int
+}
+type Article {
+  author:String
+  category:String
+  country:String
+  description:String
+  image:String
+  language:String
+  published_at:String
+  source:String
+  title:String
+  url:String
+}
+type Root {
+  data: [Article]
+  pagination: Pagination
+}
+
+type Query {
+  myQuery(
+    access_key: String
+    categories: String
+    countries: String
+    date: String
+    keywords: String
+    limit: String
+    offest: String
+    sort: String
+  ): Root @rest(endpoint: "http://api.mediastack.com/v1/news")
+}
