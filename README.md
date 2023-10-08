@@ -24,17 +24,20 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+# News Pulse
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+News Pulse is a real-time news application built with Next.js, Tailwind CSS, GraphQL, and powered by the MediaStack API. It provides users with up-to-date news articles and allows them to explore news from various sources and categories.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Live Demo](https://the-news-pulse.vercel.app/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Real-time news updates from MediaStack API
+- Explore news by categories and sources
+- Responsive and user-friendly UI with Tailwind CSS
+- Fast and optimized with Next.js
+- GraphQL for efficient data fetching
+- Easily deployable to Vercel
+
